@@ -3,14 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>嗨皮漫畫網站維護中</title>
+  <title>漫畫網站維護中</title>
   <style>
+    /* 設定全域樣式 */
+    /* 使用 Arial 字體 */
+    /* 文字置中對齊 內邊距50px */
+    /* 背景顏色為淡灰色 */
     body {
       font-family: 'Arial', sans-serif;
       text-align: center;
       background-color: #f8f9fa;
       padding: 50px;
     }
+
+    /* 容器樣式 */
+    /* 設定最大寬度為 600px 置中 */
+    /* 設定背景顏色為白色 */
+    /* 內邊距30px 圓角邊框 10px*/
+    /* 添加陰影效果 */
     .container {
       max-width: 600px;
       margin: auto;
@@ -19,16 +29,30 @@
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
+
+    /* 標題樣式 設定標題顏色為紅色 */
     h1 {
       color: #dc3545;
     }
+
+    /* 段落文字樣式 設定文字顏色為深灰色 */
     p {
       color: #555;
     }
+
+    /* 載入圖片樣式 */
+    /* 設定圖片寬度為 100px 上下邊距為 20px */
     .loading-img {
       width: 100px;
       margin: 20px 0;
     }
+
+    /* 按鈕樣式 */
+    /* 讓按鈕呈現區塊顯示但仍可排列在同一行 */
+    /* 內邊距 10px-20px*/
+    /* 設定背景顏色為紫色 文字顏色為白色 */
+    /* 移除超連結的預設底線 */
+    /* 圓角邊框5px 設定頂部邊距15px */
     .button {
       display: inline-block;
       padding: 10px 20px;
@@ -42,10 +66,15 @@
 </head>
 <body>
 <div class="container">
-  <h1>📢 嗨皮漫畫暫時當機！</h1>
-  <p>我們的漫畫伺服器正在緊急維修中，請稍後再試！</p>
+  <h1>📢 漫畫網站暫時當機！</h1> <!-- 顯示主標題，提醒使用者網站當機 -->
+  <p>我們的漫畫伺服器正在緊急維修中，請稍後再試！</p> <!-- 顯示當機訊息 -->
+
+  <!-- 載入動畫圖片 -->
   <img class="loading-img" src="https://i.gifer.com/7efs.gif" alt="Loading...">
-  <p>建議您稍後再訪，或先看看其他內容！</p>
+
+  <p>建議您稍後再訪，或先看看其他內容！</p> <!-- 提供用戶建議 -->
+
+  <!-- 連結到社群網站，讓用戶獲取最新消息 -->
   <a href="https://www.facebook.com" class="button">前往社群關注更新</a>
 </div>
 </body>
